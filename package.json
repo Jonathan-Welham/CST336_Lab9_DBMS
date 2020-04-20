@@ -1,17 +1,27 @@
 {
-  "name": "quotesdb",
+  "name": "lab9_quotes",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-    "start": "node index.js"
-  },
-  "author": "jwelham",
-  "license": "ISC",
   "dependencies": {
     "ejs": "^3.0.2",
     "express": "^4.17.1",
+    "heroku": "^7.39.3",
     "mysql": "^2.18.1"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jonathan-Welham/CST336_Lab9_DBMS.git"
+  },
+  "author": "jwelham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jonathan-Welham/CST336_Lab9_DBMS/issues"
+  },
+  "homepage": "https://github.com/Jonathan-Welham/CST336_Lab9_DBMS#readme"
 }
